@@ -1,0 +1,16 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Blog - Blogs
+{% endblock %}
+
+
+{% block content %}
+  <h3><a href="/">Home</a></h3>
+  <h1>Blogs</h1>
+  <ul>
+    {% for blog in myblogs %}
+      <li><a href="blogdetails/{{ blog.id }}">{{ blog.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}
