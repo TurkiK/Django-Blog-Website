@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a19b71a-8ea7-4b57-8174-a65b79d280e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DjangoBlogWebsite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/blogdetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/blogs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/comments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/master.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogWebsite/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogWebsite/blog/templates/blogdetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/blogdetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogWebsite/blog/templates/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogWebsite/blog/templates/comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogWebsite/blog/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogWebsite/blog/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebsite/blog/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogWebsite/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebsite/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogWebsite/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebsite/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogWebsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebsite/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

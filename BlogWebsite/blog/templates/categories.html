@@ -1,13 +1,16 @@
 {% extends "master.html" %}
 
 {% block title %}
-  My Tennis Club
+  Blog - Categories
 {% endblock %}
 
 
 {% block content %}
-  <h1>Blog</h1>
-
-  <p>Check out all our <a href="/">blogs</a></p>
-  
+  <h3><a href="/">Home</a></h3>
+  <h1>Categories</h1>
+  <ul>
+    {% for category in mycategories %}
+      <li>{{ category.name }}</li>
+    {% endfor %}
+  </ul>
 {% endblock %}

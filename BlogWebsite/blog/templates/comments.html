@@ -1,13 +1,22 @@
 {% extends "master.html" %}
 
 {% block title %}
-  My Tennis Club
+  Comments - {{ myblog.title }}
 {% endblock %}
 
 
 {% block content %}
-  <h1>Blog</h1>
+  <h3><a href="/blogs">Back</a></h3>
 
-  <p>Check out all our <a href="/">blogs</a></p>
-  
+  <h1>{{ myblog.title }}</h1>
+
+  <h2>Comments:</h2>
+  <ul>
+    {% for comment in blogcomments %}
+      <li>
+        <p>{{ comment.user }} - {{ comment.date_posted }}:</p>
+        <p>[ {{ comment.content }} ]</p>
+      </li>
+    {% endfor %}
+  </ul>
 {% endblock %}

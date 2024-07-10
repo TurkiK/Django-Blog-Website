@@ -6,8 +6,11 @@
 
 
 {% block content %}
-  <h1>Blog</h1>
-
-  <p>Check out all our <a href="/">blogs</a></p>
-  
+  <h3><a href="/">Home</a></h3>
+  <h1>Users</h1>
+  <ol>
+    {% for user in myusers %}
+      <li>{{ user.username }} {{ user.email }}</li>
+    {% endfor %}
+  </ol>
 {% endblock %}
