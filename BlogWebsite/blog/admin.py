@@ -5,7 +5,19 @@ from .models import Post
 from .models import Comment
 
 
-admin.site.register(User)
+class UserAdmin(admin.ModelAdmin):
+    list_display = ("id", "username", "email")
+
+
+class PostAdmin(admin.ModelAdmin):
+    list_display = ("id", "title", "category", "date_published")
+
+
+class CommentAdmin(admin.ModelAdmin):
+    list_display = ("user", "post", "date_posted")
+
+
+admin.site.register(User, UserAdmin)
 admin.site.register(Category)
-admin.site.register(Post)
-admin.site.register(Comment)
+admin.site.register(Post, PostAdmin)
+admin.site.register(Comment, CommentAdmin)

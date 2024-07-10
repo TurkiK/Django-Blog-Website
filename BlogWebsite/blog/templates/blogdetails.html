@@ -9,8 +9,9 @@
   <h3><a href="/blogs">Back</a></h3>
 
   <h1>{{ myblog.title }}</h1>
-
+  <p> <strong>Category</strong>: {{ myblog.category }}</p>
+  <hr>
   <p>{{ myblog.content }}</p>
-
-  <h3><a href="comments/{{ myblog.id }}">Comments</a></h3>
+  <hr>
+  <h3><a href="{{ myblog.id }}/comments/">Comments</a></h3>
 {% endblock %}

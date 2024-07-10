@@ -6,7 +6,7 @@
 
 
 {% block content %}
-  <h3><a href="/blogs">Back</a></h3>
+  <h3><a href="/blogs/blogdetails/{{ myblog.id }}">Back</a></h3>
 
   <h1>{{ myblog.title }}</h1>
 
@@ -14,7 +14,7 @@
   <ul>
     {% for comment in blogcomments %}
       <li>
-        <p>{{ comment.user }} - {{ comment.date_posted }}:</p>
+        <p>{{ comment.user.username }} - {{ comment.date_posted }}:</p>
         <p>[ {{ comment.content }} ]</p>
       </li>
     {% endfor %}

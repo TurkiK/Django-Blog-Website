@@ -7,7 +7,7 @@ class User(models.Model):
     password = models.CharField(max_length=255)
 
     def __str__(self):
-        return self.username
+        return f"{self.id} {self.username} {self.email}"
 
 
 class Category(models.Model):
@@ -21,10 +21,10 @@ class Post(models.Model):
     title = models.CharField(max_length=255)
     content = models.TextField()
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
-    date_published = models.DateField(auto_now_add=True)
+    date_published = models.DateField()
 
     def __str__(self):
-        return self.title
+        return f"{self.id} {self.title} {self.category} {self.date_published}"
 
 
 class Comment(models.Model):
@@ -32,3 +32,6 @@ class Comment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     content = models.TextField()
     date_posted = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.user} {self.post} {self.date_posted}"
